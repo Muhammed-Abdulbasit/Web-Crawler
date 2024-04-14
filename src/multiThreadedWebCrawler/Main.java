@@ -24,6 +24,8 @@ public class Main {
 		bots.add(new CrawlerBot("https://www.wikipedia.org/", 2));
 		bots.add(new CrawlerBot("https://www.nytimes.com", 3));
 		bots.add(new CrawlerBot("https://www.bbc.com", 4));
+		bots.add(new CrawlerBot("https://stackoverflow.com/questions", 5));
+		bots.add(new CrawlerBot("https://www.imdb.com/chart/top", 6));
 		
 		for(CrawlerBot w : bots) {
 			try {
