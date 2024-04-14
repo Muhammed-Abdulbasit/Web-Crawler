@@ -18,7 +18,7 @@ public class Main {
 		} catch (java.io.IOException e) {
 			System.out.println(e.getMessage());
 		}
-		// this is a tes
+		// testing...
 		ArrayList<CrawlerBot> bots = new ArrayList<>();
 		bots.add(new CrawlerBot("https://abcnews.go.com", 1));
 		bots.add(new CrawlerBot("https://www.wikipedia.org/", 2));
